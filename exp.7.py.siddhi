@@ -35,3 +35,34 @@ print("Slice (1 to 3):", t[1:4])
 print("Iterating elements:")
 for i in t:
     print(i)
+
+#question 3
+t = (1, 2, 3)
+
+# Trying to change value (will give error)
+# t[0] = 10   # Uncomment to see error
+
+print("Original tuple:", t)
+
+# Deleting tuple
+del t
+
+# print(t)  # This will give error because tuple is deleted
+
+#question 4
+# Given sequence (list)
+seq = [4, 8, 2, 10, 6]
+
+# Convert to tuple
+t = tuple(seq)
+
+print("Tuple:", t)
+
+# Length
+print("Length:", len(t))
+
+# Maximum
+print("Maximum:", max(t))
+
+# Minimum
+print("Minimum:", min(t))
