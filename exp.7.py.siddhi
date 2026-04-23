@@ -17,7 +17,7 @@ print("Repetition:", t4)
 # Membership
 print("Is 3 in tuple?", 3 in t1)
 print("Is 10 in tuple?", 10 in t1)
-#question 2 
+
 t = (10, 20, 30, 40, 50)
 
 #question 2
