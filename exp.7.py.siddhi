@@ -17,3 +17,21 @@ print("Repetition:", t4)
 # Membership
 print("Is 3 in tuple?", 3 in t1)
 print("Is 10 in tuple?", 10 in t1)
+#question 2 
+t = (10, 20, 30, 40, 50)
+
+#question 2
+
+# Indexing
+print("First element:", t[0])
+
+# Negative Indexing
+print("Last element:", t[-1])
+
+# Slicing
+print("Slice (1 to 3):", t[1:4])
+
+# Iteration
+print("Iterating elements:")
+for i in t:
+    print(i)
